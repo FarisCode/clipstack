@@ -36,6 +36,11 @@ body{
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   border: none;
 }
+.contribute{
+  display: block;
+  margin: 10px auto;
+  background: linear-gradient(#8b9189,#383a37) !important;
+}
 .download button:active{
   box-shadow: none;
 }
@@ -58,6 +63,18 @@ body{
 }
 .img1{
   background: url('../assets/clip.svg') no-repeat;
+  background-size: contain;
+  width: 70px;
+  height: 70px;
+}
+.img2{
+  background: url('../assets/easy.svg') no-repeat;
+  background-size: contain;
+  width: 70px;
+  height: 70px;
+}
+.img3{
+  background: url('../assets/night.svg') no-repeat;
   background-size: contain;
   width: 70px;
   height: 70px;
