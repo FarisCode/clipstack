@@ -1,0 +1,48 @@
+body{
+  background: #dedede;
+  font-family: 'Lato', sans-serif;
+}
+.content{
+  width: 970px;
+  margin: 0 auto;
+}
+.head-top{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.title{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.download{
+  width: 150px;
+}
+.download button{
+  padding: 5px 10px;
+  background:  linear-gradient(#66a653,#2b4324);
+  color: #dedede;
+  font-weight: bold;
+  font-size: 14px;
+  outline: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+.download button:active{
+  box-shadow: none;
+}
+.title h1{
+  margin-left: 25px;
+  text-align: center;
+  font-size: 85px;
+  font-family: 'Patua One', cursive;
+}
+.head-bottom{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
