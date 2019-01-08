@@ -2,6 +2,9 @@ body{
   background: #dedede;
   font-family: 'Lato', sans-serif;
 }
+*{
+  transition: 1s;
+}
 .content{
   width: 970px;
   margin: 0 auto;
@@ -45,4 +48,59 @@ body{
   font-size: 30px;
   font-weight: bold;
   text-align: center;
+}
+.item{
+  display: flex;
+  align-items: center;
+  width: 400px;
+  margin: 20px;
+}
+.img1{
+  background: url('../assets/clip.svg') no-repeat;
+  background-size: contain;
+  width: 70px;
+  height: 70px;
+}
+.data{
+  margin-left: 10px;
+}
+.data .heading{
+  font-size: 18px;
+  font-weight: bold;
+}
+.description{
+  display: flex;
+  justify-content: space-around;
+}
+.screenshot{
+  position: absolute;
+  background-size: contain;
+  width: 280px;
+  height: 350px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.6s cubic-bezier(.25,.8,.25,1);
+}
+.screenshot1{
+  z-index: 100;
+  background: url('../assets/main.png') no-repeat;
+}
+.screenshot2{
+  left: 50px;
+  top: 20px;
+  z-index: 30;
+  background: url('../assets/darkTheme.png') no-repeat;
+}
+.screenshot3{
+  left: 100px;
+  top: 40px;
+  z-index: 20;
+  background: url('../assets/setting.png') no-repeat;
+}
+
+.screenshot:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.screenshot1:hover, .screenshot2:hover, .screenshot3:hover{
+  z-index: 200;
 }
