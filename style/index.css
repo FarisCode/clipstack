@@ -45,6 +45,7 @@ body{
   box-shadow: none;
 }
 .title h1{
+  letter-spacing: 3px;
   margin-left: 25px;
   text-align: center;
   font-size: 85px;
