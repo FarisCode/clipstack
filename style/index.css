@@ -3,7 +3,7 @@ body{
   font-family: 'Lato', sans-serif;
 }
 *{
-  transition: 1s;
+  transition: 0.3s;
 }
 .content{
   width: 970px;
@@ -24,6 +24,7 @@ body{
   width: 150px;
 }
 .download button{
+  transition: 0.1s;
   padding: 5px 10px;
   background:  linear-gradient(#66a653,#2b4324);
   color: #dedede;
